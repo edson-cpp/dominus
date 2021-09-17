@@ -1,0 +1,16 @@
+m_ad = Acesso a Dados
+m_bi = Business Intelligence
+m_cad = Cadastros
+m_com = Comum
+m_comp = Componentes
+m_cont = Contábil
+m_cp = Compras
+m_est = Estoque
+m_fer = Ferramentas
+m_fin = Financeiro
+m_fis = Fiscal
+m_prin = Principal
+m_pro = Produção
+m_rel = Relatórios
+m_rh = Recursos Humanos
+m_ven = Vendas

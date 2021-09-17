@@ -1,0 +1,1986 @@
+inherited frmClientes: TfrmClientes
+  Left = 280
+  Height = 500
+  Top = 142
+  Width = 800
+  HorzScrollBar.Page = 793
+  HorzScrollBar.Range = 793
+  VertScrollBar.Page = 472
+  VertScrollBar.Range = 472
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 500
+  ClientWidth = 800
+  FormStyle = fsNormal
+  Icon.Data = {
+    BE1000000000010001002020000001002000A810000016000000280000002000
+    0000400000000100200000000000001000006400000064000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000020000
+    0002000000020000000200000002000000020000000200000002000000020000
+    0002000000020000000200000002000000020000000200000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000100000006B0000008D0000
+    008D0000008D0000008D0000008D0000008D304F6C8D4A6E8E8D121C258D0000
+    008D0000008D0000008D0000008D0000008D0000008D000000750000001A0000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000006D000000FE010101FF0101
+    01FF010101FF010101FF030303FF050505FF629FD6FF85C6FFFF3E5C76FF0101
+    01FF010101FF010101FF010101FF010101FF010101FF010101FF0000008D0000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000003D000000FF010101FF0101
+    01FF050505FF0D0D0DFF161616FF131618FF75BAF4FF87C9FFFF689AC3FF0000
+    00FF010101FF010101FF010101FF010101FF010101FF010101FF000000470000
+    0000000000000000000000000001000000050000000600000006000000060000
+    00060000000600000006000000060000000600000007010101D7070707FF1010
+    10FF191919FF232323FF2C2C2CFF23333FFF85C7FDFF89CBFFFF88C9FCFF0C10
+    13FF090909FF090909FF090909FF090909FF090909FF070707CF000000010000
+    0000000000000000000C5C514E717B6B69A97D6C69A9837472A9897B7AA98F83
+    81A9958A89A9999090A99B9090A99B9090A99B9090A9787171CF1D1D1DFF2626
+    26FF303030FF393939FF424242FF39576DFF8ACCFFFF8BCDFFFF8BCEFFFF3449
+    58FF292929FF292929FF292929FF292929FF212121F41414143E000000000000
+    00000000000099878455BAA29EFEB39894FFBDA4A0FFC6AFACFFCFBAB7FFD8C5
+    C3FFE1D0CFFFE9DAD9FFEDDFDFFFEDDEDEFFEDDEDEFFECDDDDFFD4C5C4FF9085
+    84FF5C5756FF434242FF505050FF5584A6FF8CCFFFFF8DCFFFFF8ED0FFFF5279
+    94FF444444FF393939F72C2C2CB21A1A1A610000001100000000000000000000
+    000000000000AD989448BAA19DFFB19590FFBAA09CFFC3ABA8FFCBB6B3FFD3BF
+    BDFFDCCAC9FFE4D5D4FFEBDDDCFFEEE2E2FFEFE3E3FFECDFDFFFE5D5D5FFA6A6
+    AFFF214F73FF0E456DFF0F4267FF64A4D1FF89CCFBFF84C8F7FFA2D9FEFF6AA4
+    CBFE0B293DCB00070E4500000004000000000000000000000000000000000000
+    00000000000099838323BCA39FFFAD928CFFB69C97FFBEA6A2FFC7B0ADFFCEB9
+    B6FFD6C3C1FFDECDCCFFE4D5D4FFE7DAD9FFE9DDDCFFE9DEDDFFC3C5CCFF6985
+    9DFF0E4770FF0B4772FF0B4974FF498CBDFF76B6EDFF7EBBF1FF619FCFFF3B75
+    9FFF0C4B78FF08517FF0022F4A67000000010000000000000000000000000000
+    00000000000000000004BBA39FF6A98D88FFB29692FFBAA09CFFC1A9A6FFC8B1
+    AEFFD0BBB9FFD7C5C3FFDDCDCBFFE1D2D1FFE3D6D4FFE4D8D6FF4D728FFF1A50
+    78FF0B4974FF0B4B77FF1E5F8CFF88BFF1FF8BC8FFFF83C4FFFF87C5FCFF76B0
+    DFFF115380FF0C4A76FF075889EE001722160000000000000000000000000000
+    00000000000000000000BAA19ED3A68B85FFAC918BFFB49995FFBBA19EFFC1A9
+    A6FFC9B3B0FFD0BDBAFFD6C4C2FFDACAC8FFDDCECDFFAAABB4FF677C93FF395E
+    7EFF0B4A76FF0A4F7BFF80B6E1FF8FCAFFFF85C6FFFF86C7FFFF86C7FFFF88C9
+    FFFF4A92C0FF095C8DFF095E90FF044D76380000000000000000000000000000
+    00000000000000000000B8A09D95A88D88FFA78B85FFAE928DFFB49A95FFBAA1
+    9DFFC2AAA7FFC9B4B1FFCFBCB9FFD4C2C0FFD7C7C5FFDACBC9FFDCCECCFFB3B4
+    BBFF19537DFF0B5381FF9BCFFAFF86C8FFFF87C9FFFF8FCDFFFF9ED4FFFF99D2
+    FFFF61A8D8FF086396FF08699EFF04537F340000000000000000000000000000
+    00000000000000000000B09C931AB49A96E5A28680FFA78C85FFAD928DFFB398
+    93FFBAA19DFFC2ABA8FFC8B3B1FFCDBAB8FFD1C0BEFFD5C5C2FFD7C9C6FFDACC
+    CAFF407698FF1D6A9BFFA2D6FFFF89CBFFFF8FCEFFFF9FD5FFFFAFDCFFFFBFE3
+    FFFF95C9ECFF08679BFF0770A7FF00426E170000000000000000000000000000
+    0000000000000000000000000000B6A3A30EB3999462AA8F89ABAB9089E7AC91
+    8BFFB39994FFBEA7A3FFE1D6D4FFCAB7B3FFDED2D0FFDCCFCDFFD7C9C6FFDED2
+    D0FF628AA5FF3587B7FF9FD5FFFF8DCDFDFF9ED5FFFFAEDDFFFFBEE3FFFFCDEA
+    FFFFB5D9F1FF076AA0FF066DA2E7000000010000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000000000B9A2
+    9C2CB49B997BD0D4D9F2DBE6EEFFCED4D9FFDDE7EEFFE0EAF0FFCFC6C3B1BAA5
+    A061205E84871472A7FF4897CBFF4091C5FF77B7E1FFBCE4FFFFCCEAFFFFDBF0
+    FFFFA0CBE3FF076EA4FF056CA2AE000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000067BBBE6D472B5EAFF72B2E7FF75B7E9FF89CCF7FF6693AF2D0000
+    000007568447086294FF086396FF08669BFF1875A8FFBCE2FAFFD9F0FFFFE7F5
+    FEFF4597C3FF0772A9FF056EA35F000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0003254B66667EBBEEF98FC9FFFF85C5FFFF8BC8FFFF88C3F3FF3D6782790000
+    000200517F16076498FD08679BFF08699EFF076BA1FF51A0CAFFE1F3FEFF6FB4
+    D9FF0674ACFF0574ADF2005B910E000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000004168
+    822796C7F3F494CDFFFF85C6FFFF84C6FFFF85C6FFFF86C7FFFF95CAF8F5353F
+    55180000000007679BB6076BA0FF076DA3FF076FA5FF0772A9FF1E88BFFF0675
+    AEFF0677B0FF0376B08800000000000000000000000000000000000000000000
+    00000000000000000000000000000000000000000000000000000000000079A4
+    CD529DD2FFFF86C7FFFF89C9FFFF8FCCFFFF92CEFFFF8BCBFFFF8FCDFFFF759E
+    BD4A0000000000649A26066EA4F00770A7FF0772AAFF0674ADFF0677B0FF0679
+    B2FF0579B4C7006AAA0C00000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000000001648A
+    AA939DD3FFFF92CEFFFF9AD2FFFFA1D5FFFFA7D8FFFFACDBFFFF9AD3FFFF5782
+    A4920000000700000000006EA5250672ABA50575AEE20578B1EE0479B3CD047B
+    B674006D91070000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000091C1B4072
+    97EFA8D9FFFFA4D7FFFFAADAFFFFB1DDFFFFB7E0FFFFBCE2FFFFBAE1FFFF3271
+    9EF904324C6B0000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000073D5F68195D
+    89FFB0DCFDFFB3DFFFFFB9E1FFFFBFE4FFFFC0E2FCFF81AAC8FF45779BFF1B59
+    84FF0E527CE80000000700000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000074D79A2095B
+    8BFF91C4E4FFC1E5FFFFC6E7FEFFA8CDE7FF32658AFF0C4973FF14547FFF2B6B
+    92FF226993F60000000500000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000075A8AB10864
+    98FF60A4CAFFCBE9FDFF8FB8D4FF1A547DFF0B4D79FF0E5482FF216893FF397D
+    A5FF23739ED70000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000006669A7F076E
+    A4FF2B87B9FF598CAFFF0F4F7AFF0B527FFF0B5786FF176694FF307BA6FF478F
+    B5FF1572A38E0000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000629C0D0669
+    9EC60A5D8EFF0B507DFF0A5684FF0A5C8BFF0F6596FF2679A7FF3E8DB7FF358C
+    B9F30069A71D0000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000000000094B
+    77510A5482FF0A5B8AFF096091FF0A6799FF1C77A8FF348BB8FF3490BEF40D7C
+    B34A000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000075C8C66076396E7086A9FFF0E74A9FF1A7FB3EA1982B898007BB1210000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00000000000000000000006BA61A0070AD190000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000
+  }
+  OnKeyUp = FormKeyUp
+  inherited stbFormcad: TStatusBar
+    Top = 477
+    Width = 800
+  end
+  inherited tbrFormcad: TToolBar
+    Height = 40
+    Width = 800
+    EdgeBorders = [ebLeft, ebTop, ebRight, ebBottom]
+    ParentColor = False
+    inherited tbnSep2: TToolButton
+      Left = 299
+    end
+    inherited tbnSep1: TToolButton
+      Left = 147
+    end
+    inherited tbnSep3: TToolButton
+      Left = 353
+    end
+    inherited tbnRelatorio: TToolButton
+      Left = 307
+      DropdownMenu = pmnRelatorio
+      OnClick = tbnRelatorioClick
+    end
+    inherited tbnNovo: TToolButton
+      Left = 3
+      OnClick = tbnNovoClick
+    end
+    inherited tbnEditar: TToolButton
+      Left = 39
+      OnClick = tbnEditarClick
+    end
+    inherited tbnLocalizar: TToolButton
+      Left = 75
+    end
+    inherited tbnExcluir: TToolButton
+      Left = 111
+    end
+    inherited tbnPrimeiro: TToolButton
+      Left = 155
+    end
+    inherited tbnAnterior: TToolButton
+      Left = 191
+    end
+    inherited tbnProximo: TToolButton
+      Left = 227
+    end
+    inherited tbnUltimo: TToolButton
+      Left = 263
+    end
+    inherited tbnFechar: TToolButton
+      Left = 361
+      OnClick = tbnFecharClick
+    end
+  end
+  object pgcClientes: TPageControl[2]
+    Left = 8
+    Height = 376
+    Top = 96
+    Width = 784
+    ActivePage = tabIdent
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 2
+    object tabIdent: TTabSheet
+      Caption = 'I&dentificação'
+      ClientHeight = 348
+      ClientWidth = 776
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Quality = fqDraft
+      ParentFont = False
+      object labTipoPessoa: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 27
+        Caption = 'Tipo:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object labRazao: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 71
+        Caption = 'Razão Social:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object labFantasia: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 82
+        Caption = 'Nome Fantasia:'
+        ParentColor = False
+      end
+      object labCnpj: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 104
+        Width = 30
+        Caption = 'CNPJ:'
+        ParentColor = False
+      end
+      object labInscest: TMariaeLabel
+        Left = 296
+        Height = 15
+        Top = 104
+        Width = 74
+        Caption = 'Insc. Estadual:'
+        ParentColor = False
+      end
+      object labDataNascimento: TMariaeLabel
+        Left = 376
+        Height = 15
+        Top = 132
+        Width = 107
+        Caption = 'Data de Nascimento'
+        ParentColor = False
+      end
+      object labSite: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 132
+        Width = 65
+        Caption = 'Site (http://)'
+        ParentColor = False
+      end
+      object labEstadoCivil: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 160
+        Width = 64
+        Caption = 'Estado Civil:'
+        ParentColor = False
+      end
+      object labSexo: TMariaeLabel
+        Left = 440
+        Height = 15
+        Top = 160
+        Width = 27
+        Caption = 'Sexo:'
+        ParentColor = False
+      end
+      object labSitu: TMariaeLabel
+        Left = 224
+        Height = 15
+        Top = 20
+        Width = 48
+        Caption = 'Situação:'
+        ParentColor = False
+      end
+      object labDataCadastro: TMariaeLabel
+        Left = 384
+        Height = 15
+        Top = 20
+        Width = 97
+        Caption = 'Data de Cadastro:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object txtRazao: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 44
+        Width = 472
+        CharCase = ecUppercase
+        MaxLength = 60
+        TabOrder = 3
+        Changed = False
+      end
+      object cbbTipoPessoa: TMariaeComboBox
+        Left = 104
+        Height = 23
+        Top = 16
+        Width = 100
+        ItemHeight = 17
+        ItemIndex = 1
+        Items.Strings = (
+          'Física'
+          'Jurídica'
+        )
+        Style = csOwnerDrawFixed
+        TabOrder = 0
+        Text = 'Jurídica'
+        Changed = False
+      end
+      object cbbSitu: TMariaeComboBox
+        Left = 280
+        Height = 23
+        Top = 16
+        Width = 90
+        ItemHeight = 17
+        ItemIndex = 0
+        Items.Strings = (
+          'Ativo'
+          'Inativo'
+          'Bloqueado'
+        )
+        Style = csOwnerDrawFixed
+        TabOrder = 1
+        Text = 'Ativo'
+        Changed = False
+      end
+      object txtFantasia: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 72
+        Width = 472
+        CharCase = ecUppercase
+        MaxLength = 60
+        TabOrder = 4
+        Changed = False
+      end
+      object txtSite: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 128
+        Width = 256
+        CharCase = ecUppercase
+        MaxLength = 18
+        TabOrder = 7
+        Changed = False
+      end
+      object txtInscest: TMariaeEdit
+        Left = 384
+        Height = 23
+        Top = 100
+        Width = 192
+        CharCase = ecUppercase
+        MaxLength = 18
+        TabOrder = 6
+        Changed = False
+      end
+      object txtCnpj: TMariaeMaskEdit
+        Left = 104
+        Height = 23
+        Top = 100
+        Width = 168
+        CharCase = ecNormal
+        MaxLength = 18
+        TabOrder = 5
+        EditMask = '##.###.###/####-##;1;_'
+        Text = '  .   .   /    -  '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object txtDataCadastro: TMariaeMaskEdit
+        Left = 488
+        Height = 23
+        Top = 16
+        Width = 88
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 2
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object txtDataNascimento: TMariaeMaskEdit
+        Left = 488
+        Height = 23
+        Top = 128
+        Width = 88
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 8
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object txtEstadoCivil: TMariaeComboBox
+        Left = 104
+        Height = 23
+        Top = 156
+        Width = 168
+        ItemHeight = 17
+        ItemIndex = 0
+        Items.Strings = (
+          'Solteiro(a)'
+          'Casado(a)'
+          'Desquitado(a)'
+          'Viúvo(a)'
+        )
+        Style = csOwnerDrawFixed
+        TabOrder = 9
+        Text = 'Solteiro(a)'
+        Changed = False
+      end
+      object txtSexo: TMariaeComboBox
+        Left = 476
+        Height = 23
+        Top = 156
+        Width = 100
+        ItemHeight = 17
+        ItemIndex = 0
+        Items.Strings = (
+          'Masculino'
+          'Feminino'
+        )
+        Style = csOwnerDrawFixed
+        TabOrder = 10
+        Text = 'Masculino'
+        Changed = False
+      end
+      object labAvisoCnpj: TMariaeLabel
+        Left = 16
+        Height = 21
+        Top = 216
+        Width = 392
+        Caption = 'Já existe um cliente cadastrado com o mesmo CNPJ'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clRed
+        Font.Height = -16
+        Font.Name = 'Segoe UI'
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object tabEnder: TTabSheet
+      Caption = '&Endereços'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labTipoEnder: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 27
+        Caption = 'Tipo:'
+        ParentColor = False
+      end
+      object labLogradouro: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 65
+        Caption = 'Logradouro:'
+        ParentColor = False
+      end
+      object lanNumero: TMariaeLabel
+        Left = 496
+        Height = 15
+        Top = 76
+        Width = 17
+        Caption = 'Nº:'
+        ParentColor = False
+      end
+      object labComplem: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 132
+        Width = 80
+        Caption = 'Complemento:'
+        ParentColor = False
+      end
+      object labPontoRef: TMariaeLabel
+        Left = 296
+        Height = 15
+        Top = 132
+        Width = 106
+        Caption = 'Ponto de referência:'
+        ParentColor = False
+      end
+      object labUF: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 59
+        Caption = 'UF/Cidade:'
+        ParentColor = False
+      end
+      object labBairro: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 104
+        Width = 34
+        Caption = 'Bairro:'
+        ParentColor = False
+      end
+      object labCep: TMariaeLabel
+        Left = 376
+        Height = 15
+        Top = 20
+        Width = 24
+        Caption = 'CEP:'
+        ParentColor = False
+      end
+      object labContato: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 160
+        Width = 46
+        Caption = 'Contato:'
+        ParentColor = False
+      end
+      object labTelefone: TMariaeLabel
+        Left = 436
+        Height = 15
+        Top = 160
+        Width = 48
+        Caption = 'Telefone:'
+        ParentColor = False
+      end
+      object cbbTipoEnder: TMariaeComboBox
+        Left = 104
+        Height = 23
+        Top = 16
+        Width = 128
+        ItemHeight = 17
+        Items.Strings = (
+          'Residencial'
+          'Comercial'
+          'Cobrança'
+          'Entrega'
+        )
+        Style = csOwnerDrawFixed
+        TabOrder = 0
+        Changed = False
+      end
+      object cbbUF: TMariaeComboBox
+        Left = 104
+        Height = 23
+        Top = 44
+        Width = 53
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 2
+        Changed = False
+      end
+      object cbbCidade: TMariaeComboBox
+        Left = 160
+        Height = 23
+        Top = 44
+        Width = 324
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 3
+        Changed = False
+      end
+      object txtComplem: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 128
+        Width = 184
+        CharCase = ecUppercase
+        TabOrder = 7
+        Changed = False
+      end
+      object txtTelefone: TMariaeEdit
+        Left = 496
+        Height = 23
+        Top = 156
+        Width = 100
+        CharCase = ecUppercase
+        TabOrder = 10
+        Changed = False
+      end
+      object txtContato: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 156
+        Width = 312
+        CharCase = ecUppercase
+        TabOrder = 9
+        Changed = False
+      end
+      object txtPontoRef: TMariaeEdit
+        Left = 412
+        Height = 23
+        Top = 128
+        Width = 184
+        CharCase = ecUppercase
+        TabOrder = 8
+        Changed = False
+      end
+      object txtLogradouro: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 72
+        Width = 380
+        CharCase = ecUppercase
+        TabOrder = 4
+        Changed = False
+      end
+      object txtNumero: TMariaeEdit
+        Left = 520
+        Height = 23
+        Top = 72
+        Width = 76
+        CharCase = ecUppercase
+        TabOrder = 5
+        Changed = False
+      end
+      object txtBairro: TMariaeEdit
+        Left = 104
+        Height = 23
+        Top = 100
+        Width = 380
+        CharCase = ecUppercase
+        TabOrder = 6
+        Changed = False
+      end
+      object mkeCep: TMariaeMaskEdit
+        Left = 412
+        Height = 23
+        Top = 16
+        Width = 72
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 1
+        EditMask = '##.###-###;1;_'
+        Text = '  .   -   '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object dbgEnder: TMariaeDBGrid
+        Left = 16
+        Height = 144
+        Top = 192
+        Width = 744
+        Color = clWindow
+        Columns = <>
+        DataSource = dmClientes.dsEnder
+        Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit, dgMultiselect, dgPersistentMultiSelect, dgDisableDelete, dgDisableInsert, dgDblClickAutoSize]
+        ReadOnly = True
+        TabOrder = 15
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -12
+        TitleFont.Name = 'Segoe UI'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        Changed = False
+      end
+      object btnInserirEnder: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 66
+        Width = 88
+        Caption = '&Inserir'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 0
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 11
+      end
+      object btnAlterarEnder: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 96
+        Width = 88
+        Caption = '&Alterar'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 1
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 12
+      end
+      object btnExcluirEnder: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 126
+        Width = 88
+        Caption = '&Excluir'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 2
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 13
+      end
+      object btnPrincipalEnder: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 156
+        Width = 88
+        Caption = '&Principal'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 3
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 14
+      end
+    end
+    object tabCont: TTabSheet
+      Caption = '&Contato'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labNome: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 36
+        Caption = 'Nome:'
+        ParentColor = False
+      end
+      object labCargo: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 35
+        Caption = 'Cargo:'
+        ParentColor = False
+      end
+      object labCelular: TMariaeLabel
+        Left = 336
+        Height = 15
+        Top = 48
+        Width = 40
+        Caption = 'Celular:'
+        ParentColor = False
+      end
+      object labFone: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 48
+        Caption = 'Telefone:'
+        ParentColor = False
+      end
+      object labRamal: TMariaeLabel
+        Left = 192
+        Height = 15
+        Top = 76
+        Width = 36
+        Caption = 'Ramal:'
+        ParentColor = False
+      end
+      object labEmail: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 132
+        Width = 32
+        Caption = 'Email:'
+        ParentColor = False
+      end
+      object txtNome: TMariaeEdit
+        Left = 80
+        Height = 23
+        Top = 16
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 0
+        Changed = False
+      end
+      object txtCargo: TMariaeEdit
+        Left = 80
+        Height = 23
+        Top = 44
+        Width = 248
+        CharCase = ecUppercase
+        TabOrder = 1
+        Changed = False
+      end
+      object txtCelular: TMariaeEdit
+        Left = 384
+        Height = 23
+        Top = 44
+        Width = 96
+        CharCase = ecUppercase
+        TabOrder = 2
+        Changed = False
+      end
+      object txtFone: TMariaeEdit
+        Left = 80
+        Height = 23
+        Top = 72
+        Width = 96
+        CharCase = ecUppercase
+        TabOrder = 3
+        Changed = False
+      end
+      object txtRamal: TMariaeEdit
+        Left = 232
+        Height = 23
+        Top = 72
+        Width = 48
+        CharCase = ecUppercase
+        TabOrder = 4
+        Changed = False
+      end
+      object txtEmail: TMariaeEdit
+        Left = 80
+        Height = 23
+        Top = 128
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 8
+        Changed = False
+      end
+      object labChat: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 104
+        Width = 28
+        Caption = 'Chat:'
+        ParentColor = False
+      end
+      object cbbChat: TMariaeComboBox
+        Left = 80
+        Height = 23
+        Top = 100
+        Width = 96
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 6
+        Changed = False
+      end
+      object txtIdChat: TMariaeEdit
+        Left = 183
+        Height = 23
+        Top = 100
+        Width = 297
+        CharCase = ecUppercase
+        TabOrder = 7
+        Changed = False
+      end
+      object labDtAdm: TMariaeLabel
+        Left = 296
+        Height = 15
+        Top = 76
+        Width = 98
+        Caption = 'Data de Admissão:'
+        ParentColor = False
+      end
+      object mkeDtAdm: TMariaeMaskEdit
+        Left = 400
+        Height = 23
+        Top = 72
+        Width = 80
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 5
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object dbgContato: TMariaeDBGrid
+        Left = 16
+        Height = 176
+        Top = 160
+        Width = 744
+        Color = clWindow
+        Columns = <>
+        DataSource = dmClientes.dsContato
+        Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit, dgMultiselect, dgPersistentMultiSelect, dgDisableDelete, dgDisableInsert, dgDblClickAutoSize]
+        ReadOnly = True
+        TabOrder = 12
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -12
+        TitleFont.Name = 'Segoe UI'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        Changed = False
+      end
+      object btnInserirContato: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 66
+        Width = 88
+        Caption = '&Inserir'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 0
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 9
+      end
+      object btnAlterarContato: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 96
+        Width = 88
+        Caption = '&Alterar'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 1
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 10
+      end
+      object btnExcluirContato: TMariaeBitBtn
+        Left = 672
+        Height = 28
+        Top = 126
+        Width = 88
+        Caption = '&Excluir'
+        Font.Style = [fsBold]
+        Margin = 4
+        Images = imlEnder
+        ImageIndex = 2
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 11
+      end
+    end
+    object tabCob: TTabSheet
+      Caption = 'Co&brança'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labFinanceiro: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 57
+        Caption = 'Financeiro'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object labBanco: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 36
+        Caption = 'Banco:'
+        ParentColor = False
+      end
+      object labAgencia: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 46
+        Caption = 'Agência:'
+        ParentColor = False
+      end
+      object labRespCom: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 104
+        Width = 88
+        Caption = 'Resp. Comercial:'
+        ParentColor = False
+      end
+      object labRespFin: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 132
+        Width = 89
+        Caption = 'Resp. Financeiro:'
+        ParentColor = False
+      end
+      object labFoneRespFin: TMariaeLabel
+        Left = 434
+        Height = 15
+        Top = 132
+        Width = 48
+        Caption = 'Telefone:'
+        ParentColor = False
+      end
+      object labFoneRespCom: TMariaeLabel
+        Left = 434
+        Height = 15
+        Top = 104
+        Width = 48
+        Caption = 'Telefone:'
+        ParentColor = False
+      end
+      object labDataFixCob: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 160
+        Width = 120
+        Caption = 'Dia fixo para cobrança:'
+        ParentColor = False
+      end
+      object labOu: TMariaeLabel
+        Left = 185
+        Height = 15
+        Top = 160
+        Width = 14
+        Caption = 'ou'
+        ParentColor = False
+      end
+      object labConta: TMariaeLabel
+        Left = 248
+        Height = 15
+        Top = 76
+        Width = 35
+        Caption = 'Conta:'
+        ParentColor = False
+      end
+      object labDataAbe: TMariaeLabel
+        Left = 408
+        Height = 15
+        Top = 76
+        Width = 74
+        Caption = 'Data abertura:'
+        ParentColor = False
+      end
+      object txtCodBanco: TMariaeEdit
+        Left = 144
+        Height = 23
+        Top = 44
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 0
+        Changed = False
+      end
+      object txtAgencia: TMariaeEdit
+        Left = 144
+        Height = 23
+        Top = 72
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 2
+        Changed = False
+      end
+      object txtRespCom: TMariaeEdit
+        Left = 144
+        Height = 23
+        Top = 100
+        Width = 272
+        CharCase = ecUppercase
+        TabOrder = 5
+        Changed = False
+      end
+      object txtRespFin: TMariaeEdit
+        Left = 144
+        Height = 23
+        Top = 128
+        Width = 272
+        CharCase = ecUppercase
+        TabOrder = 7
+        Changed = False
+      end
+      object txtFoneRespCom: TMariaeEdit
+        Left = 488
+        Height = 23
+        Top = 100
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 6
+        Changed = False
+      end
+      object txtFoneRespFin: TMariaeEdit
+        Left = 488
+        Height = 23
+        Top = 128
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 8
+        Changed = False
+      end
+      object txtDataFixaDia1: TMariaeEdit
+        Left = 144
+        Height = 23
+        Top = 156
+        Width = 36
+        CharCase = ecUppercase
+        TabOrder = 9
+        Changed = False
+      end
+      object txtDescBanco: TMariaeEdit
+        Left = 224
+        Height = 23
+        Top = 44
+        Width = 344
+        CharCase = ecUppercase
+        TabOrder = 1
+        Changed = False
+      end
+      object txtConta: TMariaeEdit
+        Left = 296
+        Height = 23
+        Top = 72
+        Width = 96
+        CharCase = ecUppercase
+        TabOrder = 3
+        Changed = False
+      end
+      object txtDataFixaDia2: TMariaeEdit
+        Left = 208
+        Height = 23
+        Top = 156
+        Width = 36
+        CharCase = ecUppercase
+        TabOrder = 10
+        Changed = False
+      end
+      object mkeDataAbe: TMariaeMaskEdit
+        Left = 488
+        Height = 23
+        Top = 72
+        Width = 80
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 4
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+      object labOu1: TMariaeLabel
+        Left = 248
+        Height = 15
+        Top = 160
+        Width = 14
+        Caption = 'ou'
+        ParentColor = False
+      end
+      object txtDataFixaDia3: TMariaeEdit
+        Left = 270
+        Height = 23
+        Top = 156
+        Width = 36
+        CharCase = ecUppercase
+        TabOrder = 11
+        Changed = False
+      end
+    end
+    object tabCred: TTabSheet
+      Caption = 'C&rédito'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labUltCompra: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 82
+        Caption = 'Última compra:'
+        ParentColor = False
+      end
+      object labRecBruta: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 72
+        Caption = 'Receita bruta:'
+        ParentColor = False
+      end
+      object labCredito: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 42
+        Caption = 'Crédito:'
+        ParentColor = False
+      end
+      object labLimiteCompras: TMariaeLabel
+        Left = 240
+        Height = 15
+        Top = 20
+        Width = 111
+        Caption = 'Limite para compras:'
+        ParentColor = False
+      end
+      object labTotalLcompras: TMariaeLabel
+        Left = 240
+        Height = 15
+        Top = 48
+        Width = 29
+        Caption = 'Total:'
+        ParentColor = False
+      end
+      object labDispLcompras: TMariaeLabel
+        Left = 240
+        Height = 15
+        Top = 76
+        Width = 58
+        Caption = 'Disponível:'
+        ParentColor = False
+      end
+      object txtRecBruta: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 44
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 1
+        Changed = False
+      end
+      object txtCredito: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 72
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 2
+        Changed = False
+      end
+      object txtTotalLcompras: TMariaeEdit
+        Left = 304
+        Height = 23
+        Top = 44
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 3
+        Changed = False
+      end
+      object txtDispLcompras: TMariaeEdit
+        Left = 304
+        Height = 23
+        Top = 72
+        Width = 80
+        CharCase = ecUppercase
+        TabOrder = 4
+        Changed = False
+      end
+      object chkOpc: TMariaeCheckBox
+        Left = 432
+        Height = 19
+        Top = 16
+        Width = 244
+        Caption = 'Incluso nos órgãos de proteção ao crédito.'
+        TabOrder = 5
+        Changed = False
+      end
+      object chkDebitos: TMariaeCheckBox
+        Left = 432
+        Height = 19
+        Top = 44
+        Width = 154
+        Caption = 'Possui débitos em atraso.'
+        TabOrder = 6
+        Changed = False
+      end
+      object chkPendDoc: TMariaeCheckBox
+        Left = 432
+        Height = 19
+        Top = 72
+        Width = 177
+        Caption = 'Pendência de documentação.'
+        TabOrder = 7
+        Changed = False
+      end
+      object mkeUltCompra: TMariaeMaskEdit
+        Left = 112
+        Height = 23
+        Top = 16
+        Width = 80
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 0
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+    end
+    object tabFatur: TTabSheet
+      Caption = 'Fa&turamento'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labTransp: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 77
+        Caption = 'Transportador:'
+        ParentColor = False
+      end
+      object labVendedor: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 48
+        Width = 53
+        Caption = 'Vendedor:'
+        ParentColor = False
+      end
+      object labVendExterno: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 76
+        Width = 74
+        Caption = 'Vend. Externo:'
+        ParentColor = False
+      end
+      object labRepres: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 104
+        Width = 78
+        Caption = 'Representante:'
+        ParentColor = False
+      end
+      object labCondPagto: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 188
+        Width = 69
+        Caption = 'Cond. pagto:'
+        ParentColor = False
+      end
+      object labAtualizadoEm: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 244
+        Width = 79
+        Caption = 'Atualizado em:'
+        ParentColor = False
+      end
+      object labCRT: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 272
+        Width = 24
+        Caption = 'CRT:'
+        ParentColor = False
+      end
+      object labAreaVendas: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 160
+        Width = 83
+        Caption = 'Área de vendas:'
+        ParentColor = False
+      end
+      object labFormaPagto: TMariaeLabel
+        Left = 412
+        Height = 15
+        Top = 188
+        Width = 71
+        Caption = 'Forma pagto:'
+        ParentColor = False
+      end
+      object labDestinacao: TMariaeLabel
+        Left = 412
+        Height = 15
+        Top = 216
+        Width = 61
+        Caption = 'Destinação:'
+        ParentColor = False
+      end
+      object labMarkup: TMariaeLabel
+        Left = 472
+        Height = 15
+        Top = 132
+        Width = 44
+        Caption = 'Markup:'
+        ParentColor = False
+      end
+      object labObsNF: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 216
+        Width = 45
+        Caption = 'Obs. NF:'
+        ParentColor = False
+      end
+      object labTabPrecos: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 132
+        Width = 63
+        Caption = 'Tab. preços:'
+        ParentColor = False
+      end
+      object txtIdTransp: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 16
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 0
+        Changed = False
+      end
+      object txtIdVendedor: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 44
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 2
+        Changed = False
+      end
+      object txtIdVendExterno: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 72
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 4
+        Changed = False
+      end
+      object txtIdRepres: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 100
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 6
+        Changed = False
+      end
+      object txtIdTabPrecos: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 128
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 8
+        Changed = False
+      end
+      object txtIdAreaVendas: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 156
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 11
+        Changed = False
+      end
+      object txtDescTransp: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 16
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 1
+        Changed = False
+      end
+      object txtDescVendedor: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 44
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 3
+        Changed = False
+      end
+      object txtDescVendExterno: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 72
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 5
+        Changed = False
+      end
+      object txtDescRepres: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 100
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 7
+        Changed = False
+      end
+      object txtIdObsNF: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 212
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 16
+        Changed = False
+      end
+      object txtDescObsNF: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 212
+        Width = 208
+        CharCase = ecUppercase
+        TabOrder = 17
+        Changed = False
+      end
+      object txtMarkup: TMariaeEdit
+        Left = 528
+        Height = 23
+        Top = 128
+        Width = 64
+        CharCase = ecUppercase
+        TabOrder = 10
+        Changed = False
+      end
+      object txtIdCondPagto: TMariaeEdit
+        Left = 112
+        Height = 23
+        Top = 184
+        Width = 78
+        CharCase = ecUppercase
+        TabOrder = 13
+        Changed = False
+      end
+      object txtDescTabPrecos: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 128
+        Width = 264
+        CharCase = ecUppercase
+        TabOrder = 9
+        Changed = False
+      end
+      object txtDescAreaVendas: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 156
+        Width = 400
+        CharCase = ecUppercase
+        TabOrder = 12
+        Changed = False
+      end
+      object txtDescCondPagto: TMariaeEdit
+        Left = 192
+        Height = 23
+        Top = 184
+        Width = 208
+        CharCase = ecUppercase
+        TabOrder = 14
+        Changed = False
+      end
+      object chkImpPartNumber: TMariaeCheckBox
+        Left = 327
+        Height = 19
+        Top = 244
+        Width = 265
+        Caption = 'Imprimir PartNumber no campo código da NF'
+        TabOrder = 20
+        Changed = False
+      end
+      object cbbCRT: TMariaeComboBox
+        Left = 112
+        Height = 23
+        Top = 268
+        Width = 272
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 21
+        Changed = False
+      end
+      object cbbFormaPagto: TMariaeComboBox
+        Left = 492
+        Height = 23
+        Top = 184
+        Width = 100
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 15
+        Changed = False
+      end
+      object cbbDestinacao: TMariaeComboBox
+        Left = 492
+        Height = 23
+        Top = 212
+        Width = 100
+        ItemHeight = 17
+        Style = csOwnerDrawFixed
+        TabOrder = 18
+        Changed = False
+      end
+      object mkeAtualizadoEm: TMariaeMaskEdit
+        Left = 112
+        Height = 23
+        Top = 240
+        Width = 78
+        CharCase = ecNormal
+        MaxLength = 10
+        TabOrder = 19
+        EditMask = '##/##/####;1;_'
+        Text = '  /  /    '
+        SpaceChar = '_'
+        Changed = False
+      end
+    end
+    object tabObs: TTabSheet
+      Caption = '&Observações'
+      ClientHeight = 348
+      ClientWidth = 776
+      object labObs: TMariaeLabel
+        Left = 16
+        Height = 15
+        Top = 20
+        Width = 67
+        Caption = 'Observações'
+        ParentColor = False
+      end
+      object memObs: TMariaeMemo
+        Left = 16
+        Height = 194
+        Top = 40
+        Width = 560
+        Lines.Strings = (
+          'memObs'
+        )
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+        Changed = False
+      end
+    end
+  end
+  object panCodigo: TPanel[3]
+    Left = 8
+    Height = 40
+    Top = 48
+    Width = 784
+    BorderSpacing.Bottom = 1
+    BorderSpacing.Around = 1
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 36
+    ClientWidth = 780
+    TabOrder = 3
+    object labCodigo: TMariaeLabel
+      Left = 8
+      Height = 15
+      Top = 10
+      Width = 39
+      Caption = 'Código'
+      ParentColor = False
+    end
+    object labNomeAbrev: TMariaeLabel
+      Left = 168
+      Height = 15
+      Top = 10
+      Width = 90
+      Caption = 'Nome Abreviado'
+      ParentColor = False
+    end
+    object txtCodigo: TMariaeEdit
+      Left = 56
+      Height = 23
+      Top = 7
+      Width = 80
+      CharCase = ecUppercase
+      NumbersOnly = True
+      TabOrder = 0
+      Changed = False
+    end
+    object txtNomeAbrev: TMariaeEdit
+      Left = 272
+      Height = 23
+      Top = 7
+      Width = 216
+      CharCase = ecUppercase
+      MaxLength = 20
+      TabOrder = 1
+      Changed = False
+    end
+  end
+  inherited imlFormcad: TImageList[4]
+  end
+  object imlEnder: TImageList[5]
+    left = 512
+    top = 8
+    Bitmap = {
+      4C69070000001000000010000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0074BB
+      8B2371B9887D6EB684DB6AB380F367B17CF363AE77DB60AB737D5CA86E23FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0073BB8B5371B8
+      87E694CEA4FFC3E6CBFFCFEBD4FFC9E9CEFFAFDDB8FF6DB97FFF58A569E654A1
+      6553FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0073BB8B5370B887F4AFDC
+      BBFFDCF2E0FFB6E4BDFF9BDBA5FF96D9A0FFA5DFAFFFC0E8C5FF79C28AFF509E
+      5FF44C9B5B53FFFFFF00FFFFFF00FFFFFF0073BA8A2270B887E5AADAB7FFD8F1
+      DCFF92D89DFF88CD93FF84CC8EFF8BD496FF8AD495FF83D28EFFAFE0B7FF6BB9
+      7DFF489856E544945122FFFFFF00FFFFFF0070B8877E85C797FFD2EED7FF95D9
+      A0FF8AD394FF7FC889FFFFFFFFFFFFFFFFFF79CD85FF6BC37CFF6FC77EFFACDF
+      B5FF459E57FF40914C7EFFFFFF00FFFFFF006DB583DBACDDB6FFA6DFAFFF81CB
+      8CFF7CC986FF6EBD79FFFFFFFFFFFFFFFFFF5BAC6AFF60BC77FF5CBA73FF8BD1
+      99FF80C592FF3C8E47DBFFFFFF00FFFFFF0069B27EF6B6E2BEFF8BD597FF7AC9
+      86FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF59B870FF69C1
+      7EFF9DD4AAFF388B42F6FFFFFF00FFFFFF0065AF7AF6A9DDB3FF7DCF8AFF75CC
+      81FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF59B870FF67BE
+      7DFF9CD4ABFF34883DF6FFFFFF00FFFFFF0061AC75DB8ACC98FF89D396FF6BC6
+      7AFF63C170FF55AB65FFFFFFFFFFFFFFFFFF59B870FF59B870FF5BB972FF85CC
+      97FF7BBE8DFF308539DBFFFFFF00FFFFFF005DA9707E53AB68FFAADDB4FF64C1
+      79FF5FBE71FF60BC77FFFFFFFFFFFFFFFFFF59B870FF58B56EFF5CB774FFA6DA
+      B4FF388F43FF2C82347EFFFFFF00FFFFFF0059A66B2256A366E56AB97DFFA8DB
+      B2FF60BC77FF5CBA73FF59B870FF59B56FFF58B56FFF5BB774FFA5D9B3FF5AAA
+      6CFF2C8234E5297F3022FFFFFF00FFFFFF00FFFFFF00519F61534D9C5DF464B4
+      78FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB98FFA5D9B4FF58AA6BFF2C81
+      34F4297F3053FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00499958534596
+      53E6419950FF7DC28FFF96D0A6FF96CFA6FF78BE89FF368D42FF2C8134E6297F
+      3053FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF004192
+      4E233D8F497D3A8C44DB368940F332873CF32F8437DB2C81337D287F3023FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF002FBAE4094FAADBEA5093
+      CAFD4E90C8FF2F9DD2DF35A4DE19FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0050A8D9FF6AA5D8FFC9E1
+      F7FFCBE3F8FF4295CAFF3182C2AEFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF002FBAE4FFA7D4F4FFC5E1F8FFCCE3
+      F9FFCCE3F9FFBDDBF7FF4F90C9FDFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF002FBAE4FFC3EDF8FFA8E2F8FF6CAEDDFFA5CF
+      F4FFA5CFF4FFBDDBF7FF5393CBF7FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF002FBAE4FFC3EDF8FFB3F4FCFF68D9F5FF6FCFF3FF599D
+      D0FF73ABDDFF4F91C9FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF002FBAE4FFC3EDF8FFB3F4FCFF60DCF5FF44D6F4FF8EEEFAFF5DB4
+      E6FF3B8FD9FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF002FBAE4FFC3EDF8FFB3F4FCFF60DCF5FF44D6F4FF8EEEFAFF5DB4E6FF3B8F
+      D9FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF002790
+      BFFFC3EDF8FFB3F4FCFF60DCF5FF44D6F4FF8EEEFAFF5DB4E6FF3B8FD9FFFFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF002689B9FFBEE6
+      F2FFB3F4FCFF60DCF5FF44D6F4FF8EEEFAFF5DB4E6FF3B8FD9FFFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00206398202689B9FFB0CBE1FF67A9
+      C8FF60DCF5FF44D6F4FF8EEEFAFF5DB4E6FF3B8FD9FFFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF001E6D93FFC8E1F2FFD1E7FAFF347D
+      B5FF3199C3FF6DC4DCFF4A9CCFFF3483C7FFFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF001E6D93FFCBE3F9FF61AAECFF4098
+      E8FF1567C2FF1660AAFF2C76B4FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00124259FF5D9CD4FFA6CFF5FFA9CF
+      ECFF488BC1FF2C76B4FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00134058FF15425EFF25699CFF2C76
+      B4FF3B8BBAADFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF006D6D
+      E2236B6AE17D686ADDDB6364DCF36164DAF35D63D9DB5B63D67D5862D423FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF006D6CE3536A6A
+      DFE68E93EDFFBEC3F8FFCCD3F9FFC4CBF9FFAAB4F4FF6670E2FF535ED1E6505D
+      CE53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF006D6CE3536A69E0F4AAAD
+      F2FFD8DCFDFFAEBAFAFF91A3FAFF8B9DFAFF9CA9FBFFBAC7FCFF707BE9FF4C5B
+      CCF44858CA53FFFFFF00FFFFFF00FFFFFF006C6CE1226A69E0E5A3A7F3FFD4DB
+      FDFF879AFAFF7F91F0FF7A8EF1FF7F94F8FF7E92F9FF768CF8FFA8B6F8FF636E
+      E3FF4557C7E54156C522FFFFFF00FFFFFF006A69E07E7D83EAFFCDD4FCFF8B9D
+      FAFF7E93F7FF758AEEFF6C84F6FF6C84F6FF6C84F6FF6C84F6FF6379F3FFA4AF
+      F8FF3E4FD0FF3E54C27EFFFFFF00FFFFFF00676ADEDBA5AFF5FF9DABFAFF778C
+      F0FF545FECFF545FECFF545FECFF545FECFF545FECFF545FECFF6377F2FF818E
+      F4FF787FE9FF3A53C0DBFFFFFF00FFFFFF006469DBF6AFB9F9FF7F93FAFF7085
+      F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4D59E9FF5E6A
+      EEFF969DF1FF364FBEF6FFFFFF00FFFFFF005F63DAF6A1ABF7FF7086F8FF6882
+      F6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4D59E9FF5C66
+      EAFF969CF1FF3250BCF6FFFFFF00FFFFFF005C62D7DB818CEEFF7E91F7FF5D73
+      F3FF4D59E9FF4D59E9FF4D59E9FF4D59E9FF4D59E9FF4D59E9FF4F5BE9FF7B83
+      F0FF757BE2FF2E4BBADBFFFFFF00FFFFFF005860D47E4B56DBFFA2ABF6FF5664
+      F0FF5266EEFF4D59E9FF4D59E9FF4D59E9FF4D59E9FF4C58E6FF525AE6FF9FA3
+      F5FF3450C4FF2A4AB87EFFFFFF00FFFFFF00545FD2225361CFE5616BE3FFA1AC
+      F5FF545FECFF505CEAFF4D59E9FF4E59E6FF4C56E6FF5056E6FF9EA2F4FF5460
+      D6FF2A4AB8E5294BB522FFFFFF00FFFFFF00FFFFFF004D5ACD534959CBF45C65
+      E0FFA1A6F5FF7E86EFFF5B63E9FF595DE7FF7D84EEFF9EA0F4FF515DD7FF2B4A
+      B7F4294BB553FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF004658C8534255
+      C6E63C52CCFF757AE8FF8F92EEFF8F92EEFF7178E4FF334DC1FF2B4AB7E6294B
+      B553FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003F54
+      C3233A50C27D3853BEDB3551BDF3304BBCF32E4EB8DB2B4CB77D2748B523FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0040C9
+      62233BC55E7D39C25BDB31BD54F32DBB52F32BB952DB2BB7527D28B44E23FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003DC7605336C2
+      59E659C274FF96D7A3FFA5DCAEFFA5DCAEFF95D6A1FF50B96AFF1FAB42E61FA9
+      4253FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003BC55E5334C055F47FCE
+      90FFAFE1B7FF92D89DFF77CE83FF77CE83FF92D89DFFAEE1B5FF78C88BFF1D9D
+      32F41D9D3653FFFFFF00FFFFFF00FFFFFF0039C25C2234BE55E57FCE90FFAEE1
+      B5FF6DCC7AFF6ACA76FF68C872FF68C874FF68C875FF6BC979FFACDFB4FF76C4
+      89FF1C962DE51C942D22FFFFFF00FFFFFF0034BE597E57BF70FFAFE1B7FF6DCC
+      7AFF68C872FF65C770FF63C56EFF62C46EFF63C471FFB6E3BEFF6FC77EFFACDF
+      B5FF48A95EFF1C8F267EFFFFFF00FFFFFF002DBB54DB95D7A1FF91D79BFF69C9
+      76FF64C66FFF61C46EFF61C36FFF61C26FFFB9E4C0FFFFFFFFFFE3F4E6FF8BD1
+      99FF8BCE9DFF1C8820DBFFFFFF00FFFFFF0026B44BF6A7DDB1FF72CC80FF66C7
+      73FFB0E1B7FFD2EED6FF63C170FFB8E3BFFFFFFFFFFFFBFDFCFF8CD099FF69C1
+      7EFFA1D7AEFF1B7F1EF6FFFFFF00FFFFFF001FAD42F6A6DCAFFF70CA7FFF73CA
+      80FFF0F9F1FFFFFFFFFFEBF7EDFFFFFFFFFFFBFDFCFF88CD96FF5BB971FF67BE
+      7DFFA0D7AFFF1B7A1EF6FFFFFF00FFFFFF001FA942DB91D29FFF8DD49AFF64C3
+      74FF79C987FFF2FAF4FFFFFFFFFFFDFEFDFF86CB96FF57B76DFF5BB972FF85CC
+      97FF87C79AFF1B781FDBFFFFFF00FFFFFF001EA43D7E4CB064FFAADDB4FF64C1
+      79FF5FBE71FF75C585FFD4ECD9FF8ACD99FF56B66CFF58B56EFF5CB774FFA6DA
+      B4FF419B4EFF1B771F7EFFFFFF00FFFFFF001D9B36221C962FE572C287FFA8DB
+      B2FF60BC77FF5CBA73FF59B870FF59B56FFF58B56FFF5BB774FFA5D9B3FF69B8
+      7FFF1A711EE51B711F22FFFFFF00FFFFFF00FFFFFF001C912B531B8A20F46DBE
+      83FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB98FFA5D9B4FF66B77DFF1A6C
+      1DF41B711F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF001C8A21531B83
+      1FE642A052FF87CA9AFF9BD3ABFF9BD2ABFF83C796FF3D974CFF1A6E1EE61B70
+      1F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF001C81
+      1F231B7E1F7D1B7A1FDB1A731EF31A701EF31B711FDB1B711F7D1B6C1F23FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF001A547C612597D3F11BA5E4FF21A0DEFB226F
+      9F9D22374E06FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF001C4A6F4321A3DFFD19A6E5FF19A6E5FF19A6E5FF19A6
+      E5FF236B9990FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00155F9D9234AEE5FF65B8E6FF8DC8F6FF3BADE6FF1DA7
+      E5FF2397D4EFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF000F54968DB8D0E7FF96C5F1FFA1D0FBFF96C6F3FFB6CF
+      E4FF3183BFDFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00564A526672A4D6FEACD1F2FFAED7FDFFB0D4F5FF92C0
+      E7FF405E82ADFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00254166614261
+      95F1415D92FF436096FB2D5769CC6B7792FA73ADE7FF81B1E3FF7DB2E7FF6C98
+      C4FF2B652EB62C75350BFFFFFF00FFFFFF00FFFFFF00243B5F43446195FD415B
+      90FF415B90FF415B90FF415B90FF6F8F9EFF849993FF7D9489FF758C7FFFA4D5
+      B1FF82BF85FF277E2DA02673300AFFFFFF00FFFFFF0032578FC450699AFF6380
+      AEFF7CA6D6FF5573A5FF435D92FF446798FF7CD09FFF77CE97FF71CD8EFF72CD
+      88FF9DD8ABFF6DB070FF35693996FFFFFF00FFFFFF00235794ABA7BFDBFF96C5
+      F1FFA1D0FBFF96C6F3FFB6CFE4FF417AA7FF78CE8FFF75CD89FF70CB83FF6ACB
+      7BFF6AC979FF609661FF4E96DEFFFFFFFF00FFFFFF00564A526672A4D6FEACD1
+      F2FFAED7FDFFB0D4F5FF92C0E7FF548389FF79CF94FF77CE8EFF76CE8FFF76CE
+      91FF6BB474FF5A8F5AFF4C9BE6FFFFFFFF00FFFFFF00913302796D7994FA73AD
+      E7FF81B1E3FF7DB2E7FF6C98C4FF74552CFF5CA464FF59A868FF59A767FF56A3
+      64FF3B843EDF80667580599FDE5BFFFFFF00A83B0164CD7352F3FFE8C0FFADAA
+      86FFA79E7DFFA09275FFF7CA9CFFE49475FFA83909A0993F0B0AFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00984A2155B46F55F5FDD7B2FFFFD684FFFFCA
+      65FFFFC05EFFFFB456FFFFA757FFFFC592FFD67D5BFF85432596FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF003484D2FC93ACCCFFE7AF73FFFFB85FFFFEB0
+      5FFFFEA75BFFFDA055FFFF974DFFFD934DFFB39FA2FF4E96DEFFFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF003F91DFE67185ACFFC87E59FFFFBA66FFFFB7
+      61FFFFB05EFFFFB25DFFFFB45CFFDE8857FF87737EFF4C9BE6FFFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF0067A3D9395282B67AA45537B0CB7034FFD27E
+      41FFD37E41FFD17C41FFCD7A3FFFA94823DF64749380599FDE5BFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000008C80740994897C1400000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000ECE2D7CFEEE9E4FFD1CBC4F5A9A6A3610000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000E2C09861FBF5EDFFEFE8DEFDAEA08E99D3C0A681C7AB
+      8A45A28562120000000000000000000000000000000000000000000000000000
+      000000000000CDAB8367BEAD95FDC3B39EFFCFBFA8FFDECBAEFFF5DEBCFFF5DF
+      BDFFE2B67ABB0000000000000000000000000000000000000000000000000000
+      0000CCB2926CB2A28CFE8E8579FF6A6661FF464645FF393937FF958773FFE2BD
+      8AFFCBB28EDC000000000000000000000000000000000000000092919112C5C4
+      C4A7CCCBCAFFC6C5C4FFC3C0BCFFC4BEB5FFC9BFB3FFB5AC9FFFBCAE9CFFADAB
+      AAFFC0B4A6F7A5845E1F000000000000000000000000B9B9B83ADBDAD9E5D8D6
+      D3FFD3D1D0FFD4D2D1FFCFCECEFFD0D0D0FFC3C3C3FF9A9A9BFFA6A19AFFCBAB
+      82FFD7A25DFF72563250060604040000000074604A04DFCFB9CADCD2C5FFD9D3
+      CBFFD4D1CEFFD4D2D1FFDEDDDCFFCDCCCBFF92908EFFBBA487FFDBAD73FFDBA8
+      66FFC39456E82A21144C07070519000000007F6A5214F5E3CAFFF6E5CAFFF6E4
+      CAFFF5E2C7FFECDBC1FFE6D8C2FFCCBAA2FFDBB686FFE1B47BFFD5A86EF47259
+      3995100E0937070705240707050D000000007C664C0AEBD0ADBDEDD3B2EBF2DB
+      BCFFF3DEC0FFF6E3C6FFF5E3C9FFE8C696FFE1BA86FB8D724FA41C1810340707
+      05170707050C0606040400000000000000000000000000000000000000009178
+      5B1ABC9E7C49E1C09977E8CAA6A6D2AF81AA3D32233206060407050503030000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF008088
+      CA0A747CC13B6D74BD5B6163E3FF5157E2FF5157E2FF5F62E3FF6C74BC5E747B
+      C13B8088CA0AFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF007378
+      CEC86E6FECFF6668EBFF5F62E9FF7878F0FF7474F0FF5F62E9FF696BEBFF6F71
+      ECFF7277CCC8FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00545A
+      DBFE7C7CF2FF9793F7FF6468E9FF5258E3FF5258E3FF6468E9FF9793F7FF7C7C
+      F2FF4D56D9FE6D75BB26FFFFFF007E9F800A7395753B6C8F6F5B6EA877FF4C52
+      E0FFA2A2F4FF6A6CECFF6163EAFF9793F7FF9793F7FF6468E9FF6566EAFF5C61
+      E7FF4F57E2FF6D75BB30FFFFFF00759E7AC87CB485FF76AF7EFF6FAB78FF4E54
+      E1FFB4B1F9FF9596F5FF666AEBFF6F71ECFF6E72ECFF5A5CE5FF5C61E7FF5F62
+      E9FF5158E2FF6D75BB30FFFFFF0064A06BFE86BA8FFF99C6A2FF74AD7CFF4F57
+      E2FFB4B1F9FF9796F4FF9393F4FF8C8DF0FF5C60E8FF5C61E7FF5D61E8FF5F62
+      E9FF4F57E2FF6D75BB30FFFFFF005D9F65FFB9D6BEFF87BA8FFF71AC78FF5359
+      DCFF666AEBFF9896F4FF9191F3FF898AF0FF5B5FE7FF5F62E9FF5D61E8FF5158
+      E4FF4954D8FE967E7643A68C770A60A068FFC5DEC9FFB4D4B9FFA4C9AAFF81AB
+      9AFF616DC3FF5058E0FF6668EBFF9393F4FF6163EAFF585BE4FF4952DCFF6063
+      BEFFA6897FFFC19A71FFA5856BC862A169FFC0DAC5FFADD0B3FFABCEB1FF9EC8
+      A6FF6DAA76FF957B7EFF5A61C8FF5058E3FF4F56E0FF585FC8FF907884FFBB90
+      66FFD1B38FFFC6A27BFFA9784FFE639F6BFEA9CDAFFFA6CCACFFA2C9A9FF99C5
+      9FFF6BA974FFAE7C4FFFDCC8B0FFBF9F81FFB88D65FFD1B38FFFD1B38FFFBB90
+      66FFBC9168FFB78A60FFB17E52FF6E8F723D68966CE766A36CFF93C099FF9EC7
+      A4FF71AC78FFAF7E51FFE3D0BCFFDAC3ABFFD3B89EFFC7A37DFFC1986FFFB689
+      5CFFB78A60FFBA8E62FFB18054FFFFFFFF00F7F7F7016D906F63619565F463A2
+      6AFF61A169FFB17E52FFE1CDB8FFD8C0A5FFD8C0A7FFD4BA9DFFB88C60FFB78A
+      60FFB88D61FFBA8E62FFB17E52FFFFFFFF00FFFFFF00FFFFFF00FFFFFF006C8E
+      6E146C8F6E08AD7F56FED5BB9FFFD6BB9EFFD3B89CFFD1B394FFB7895DFFBA8E
+      62FFB88D61FFB28156FFA8754DFEFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00977C663DA07B5BE7B28158FFCBAB89FFD1B495FFBB8E63FFB587
+      5AFFAB774DFF9B7556EB93766146FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00F7F7F7019A7D6864A17857F4B28056FFAF7E52FFA175
+      53F695776073FFFFFF00FFFFFF00
+    }
+  end
+  object pmnRelatorio: TPopupMenu[6]
+    Images = imlEnder
+    left = 448
+    top = 8
+    object pmiListaClientes: TMenuItem
+      Caption = 'Lista de Clientes'
+      ImageIndex = 4
+    end
+    object pmiMovVendas: TMenuItem
+      Caption = 'Movimento de Vendas'
+      ImageIndex = 5
+    end
+    object pmiMovItens: TMenuItem
+      Caption = 'Movimento de Itens'
+      ImageIndex = 6
+    end
+  end
+end

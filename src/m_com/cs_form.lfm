@@ -1,0 +1,14 @@
+object clsFormdef: TclsFormdef
+  Left = 292
+  Height = 312
+  Top = 145
+  Width = 490
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'formdef'
+  Color = clWindow
+  FormStyle = fsMDIChild
+  KeyPreview = True
+  Position = poScreenCenter
+  LCLVersion = '2.0.2.0'
+end

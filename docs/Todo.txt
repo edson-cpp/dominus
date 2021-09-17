@@ -1,0 +1,11 @@
+Criar arquivo contendo informações criptografadas de retirada de publicidade.
+Nome do arquivo: withdrawal_ad.conf
+Gravar na base de dados as informações de estação para que possa ser substituída pelo usuário.
+Gravar também em arquivo para o caso do sistema ter algum problema de acesso.
+Deve conter:
+1 - Nome/razão Social
+2 - CNPJ/CPF
+3 - Código da estação de trabalho
+4 - Data de validade
+
+https://info.ao3tech.com/requisitos-minimos

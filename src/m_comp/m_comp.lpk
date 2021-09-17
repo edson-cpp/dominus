@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="m_comp"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Version Release="1"/>
+    <Files Count="20">
+      <Item1>
+        <Filename Value="m_checkbox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_checkbox"/>
+      </Item1>
+      <Item2>
+        <Filename Value="m_combobox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_combobox"/>
+      </Item2>
+      <Item3>
+        <Filename Value="m_button.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_button"/>
+      </Item3>
+      <Item4>
+        <Filename Value="m_bitbtn.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_bitbtn"/>
+      </Item4>
+      <Item5>
+        <Filename Value="m_memo.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_memo"/>
+      </Item5>
+      <Item6>
+        <Filename Value="m_stringgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_stringgrid"/>
+      </Item6>
+      <Item7>
+        <Filename Value="m_dbgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_dbgrid"/>
+      </Item7>
+      <Item8>
+        <Filename Value="m_label.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_label"/>
+      </Item8>
+      <Item9>
+        <Filename Value="m_listbox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_listbox"/>
+      </Item9>
+      <Item10>
+        <Filename Value="m_radiogroup.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_radiogroup"/>
+      </Item10>
+      <Item11>
+        <Filename Value="m_page.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_page"/>
+      </Item11>
+      <Item12>
+        <Filename Value="m_pagecontrol.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_pagecontrol"/>
+      </Item12>
+      <Item13>
+        <Filename Value="m_shape.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_shape"/>
+      </Item13>
+      <Item14>
+        <Filename Value="m_panel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_panel"/>
+      </Item14>
+      <Item15>
+        <Filename Value="m_spinedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_spinedit"/>
+      </Item15>
+      <Item16>
+        <Filename Value="m_floatspinedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_floatspinedit"/>
+      </Item16>
+      <Item17>
+        <Filename Value="m_edit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_edit"/>
+      </Item17>
+      <Item18>
+        <Filename Value="m_drawgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_drawgrid"/>
+      </Item18>
+      <Item19>
+        <Filename Value="m_radiobutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_radiobutton"/>
+      </Item19>
+      <Item20>
+        <Filename Value="m_maskedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="m_maskedit"/>
+      </Item20>
+    </Files>
+    <RequiredPkgs Count="42">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCL"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="LCL"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="LCL"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="LCL"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="LCL"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="LCL"/>
+      </Item12>
+      <Item13>
+        <PackageName Value="LCL"/>
+      </Item13>
+      <Item14>
+        <PackageName Value="LCL"/>
+      </Item14>
+      <Item15>
+        <PackageName Value="LCL"/>
+      </Item15>
+      <Item16>
+        <PackageName Value="LCL"/>
+      </Item16>
+      <Item17>
+        <PackageName Value="LCL"/>
+      </Item17>
+      <Item18>
+        <PackageName Value="LCL"/>
+      </Item18>
+      <Item19>
+        <PackageName Value="LCL"/>
+      </Item19>
+      <Item20>
+        <PackageName Value="LCL"/>
+      </Item20>
+      <Item21>
+        <PackageName Value="LCL"/>
+      </Item21>
+      <Item22>
+        <PackageName Value="LCL"/>
+      </Item22>
+      <Item23>
+        <PackageName Value="LCL"/>
+      </Item23>
+      <Item24>
+        <PackageName Value="LCL"/>
+      </Item24>
+      <Item25>
+        <PackageName Value="LCL"/>
+      </Item25>
+      <Item26>
+        <PackageName Value="LCL"/>
+      </Item26>
+      <Item27>
+        <PackageName Value="LCL"/>
+      </Item27>
+      <Item28>
+        <PackageName Value="LCL"/>
+      </Item28>
+      <Item29>
+        <PackageName Value="LCL"/>
+      </Item29>
+      <Item30>
+        <PackageName Value="LCL"/>
+      </Item30>
+      <Item31>
+        <PackageName Value="LCL"/>
+      </Item31>
+      <Item32>
+        <PackageName Value="LCL"/>
+      </Item32>
+      <Item33>
+        <PackageName Value="LCL"/>
+      </Item33>
+      <Item34>
+        <PackageName Value="LCL"/>
+      </Item34>
+      <Item35>
+        <PackageName Value="LCL"/>
+      </Item35>
+      <Item36>
+        <PackageName Value="LCL"/>
+      </Item36>
+      <Item37>
+        <PackageName Value="LCL"/>
+      </Item37>
+      <Item38>
+        <PackageName Value="LCL"/>
+      </Item38>
+      <Item39>
+        <PackageName Value="LCL"/>
+      </Item39>
+      <Item40>
+        <PackageName Value="LCL"/>
+      </Item40>
+      <Item41>
+        <PackageName Value="LCL"/>
+      </Item41>
+      <Item42>
+        <PackageName Value="LCL"/>
+      </Item42>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

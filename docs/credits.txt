@@ -1,0 +1,31 @@
+Icons
+	1: Package name: Oxygen Icons
+		Author: Oxygen Team
+		Link to the author: http://www.oxygen-icons.org/
+		Link to the icons repos: https://github.com/pasnox/oxygen-icons-png
+		License: LGPL - GNU Lesser General Public License
+		License website: https://www.gnu.org/licenses/lgpl-3.0.html
+		All the images was shared as is
+	
+	2: Package name: Crystal Clear
+		Author: Everaldo Coelho
+		Link to the author: https://www.everaldo.com/
+		Link to the project: https://icon-icons.com/pt/pack/Crystal-Clear-Icons/39
+		Link to the project: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo.html
+		License: LGPL - GNU Lesser General Public License
+		License website: https://www.gnu.org/licenses/lgpl-3.0.html
+		All the images was shared as is
+	
+	3: Package name: Silk Icons
+		Author: Mark James
+		Link to the project: http://www.famfamfam.com/lab/icons/silk/
+		License: Creative Commons Attribution 2.5 License.
+		License website: http://creativecommons.org/licenses/by/2.5/
+		License website(new version): https://creativecommons.org/licenses/by/4.0/
+		All the images was shared as is
+		
+	4: Package name: E-Commerce Icons
+		Author: eBiene (Sergej Mueller)
+		Link to the author: http://ebiene.de/
+		License: Linkware
+		All the images was shared as is

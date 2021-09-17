@@ -1,0 +1,236 @@
+object dmClientes: TdmClientes
+  OldCreateOrder = False
+  Height = 355
+  HorizontalOffset = 298
+  VerticalOffset = 128
+  Width = 656
+  PPI = 96
+  object dsEnder: TDataSource
+    DataSet = bsEnder
+    left = 62
+    top = 32
+  end
+  object bsEnder: TBufDataset
+    FieldDefs = <>
+    left = 144
+    top = 33
+    object bsEnderprin: TBooleanField
+      FieldKind = fkData
+      FieldName = 'prin'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      DisplayValues = 'True;False'
+    end
+    object bsEndertipo: TStringField
+      FieldKind = fkData
+      FieldName = 'tipo'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 15
+    end
+    object bsEnderlograd: TStringField
+      FieldKind = fkData
+      FieldName = 'lograd'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 60
+    end
+    object bsEndernum: TStringField
+      FieldKind = fkData
+      FieldName = 'num'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object bsEndercompl: TStringField
+      FieldKind = fkData
+      FieldName = 'compl'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsEnderpref: TStringField
+      FieldKind = fkData
+      FieldName = 'pref'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsEndercidade: TStringField
+      FieldKind = fkData
+      FieldName = 'cidade'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsEnderestado: TStringField
+      FieldKind = fkData
+      FieldName = 'estado'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 2
+    end
+    object bsEnderbairro: TStringField
+      FieldKind = fkData
+      FieldName = 'bairro'
+      Index = 8
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsEndercep: TStringField
+      FieldKind = fkData
+      FieldName = 'cep'
+      Index = 9
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object bsEndercontato: TStringField
+      FieldKind = fkData
+      FieldName = 'contato'
+      Index = 10
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 40
+    end
+    object bsEnderfone: TStringField
+      FieldKind = fkData
+      FieldName = 'fone'
+      Index = 11
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 14
+    end
+  end
+  object dsContato: TDataSource
+    DataSet = bsContato
+    left = 62
+    top = 112
+  end
+  object bsContato: TBufDataset
+    FieldDefs = <>
+    left = 144
+    top = 112
+    object bsContatonome: TStringField
+      FieldKind = fkData
+      FieldName = 'nome'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsContatocargo: TStringField
+      FieldKind = fkData
+      FieldName = 'cargo'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsContatocelular: TStringField
+      FieldKind = fkData
+      FieldName = 'celular'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 14
+    end
+    object bsContatofone: TStringField
+      FieldKind = fkData
+      FieldName = 'fone'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 14
+    end
+    object bsContatoramal: TStringField
+      FieldKind = fkData
+      FieldName = 'ramal'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 5
+    end
+    object bsContatodt_admi: TDateField
+      FieldKind = fkData
+      FieldName = 'dt_admi'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object bsContatochat: TStringField
+      FieldKind = fkData
+      FieldName = 'chat'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object bsContatoid_chat: TStringField
+      FieldKind = fkData
+      FieldName = 'id_chat'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object bsContatoemail: TStringField
+      FieldKind = fkData
+      FieldName = 'email'
+      Index = 8
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+  end
+end

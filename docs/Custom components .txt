@@ -1,0 +1,14 @@
+checkbox - TCheckBox - ok
+combobox - TComboBox - ok
+button - TButton - ok
+editbox - TMemo - ok
+grid - TStringGrid, TDBGrid - ok
+label - TLabel - ok
+listbox - TListBox - ok
+optiongroup - TRadioGroup - ok
+radiobutton - TRadioButton - ok
+page - TPage - n/a
+pageframe - TPageControl - Deixar com fundo branco. - ok
+shape - TShape, TPanel - ok
+spinner - TSpinEdit, TFloatSpinEdit - ok
+textbox - TEdit - ok

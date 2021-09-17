@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="66">
+      <Unit0>
+        <Filename Value="m_cad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="45" Y="15"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\m_com\cs_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="clsFormdef"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="69" Y="17"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="cs_cad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="clsFormcad"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="60"/>
+        <CursorPos X="40" Y="75"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="frm_clientes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="91"/>
+        <CursorPos X="34" Y="11"/>
+        <UsageCount Value="209"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="cs_util_cad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="32" Y="8"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="dm_clientes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="35" Y="32"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\m_com\cs_util.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="33" Y="9"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="cs_inicad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="8"/>
+        <CursorPos X="44" Y="22"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\m_comum\cs_util.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="44" Y="18"/>
+        <UsageCount Value="94"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2164"/>
+        <CursorPos Y="2174"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\m_comp\mbutton.pas"/>
+        <UnitName Value="MButton"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\interfaces\medit.pas"/>
+        <UnitName Value="MEdit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\m_comp\mariaebutton.pas"/>
+        <UnitName Value="MariaeButton"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="37" Y="28"/>
+        <UsageCount Value="1"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\m_comp\m_button.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="17" Y="32"/>
+        <UsageCount Value="20"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\m_comp\m_checkbox.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="5" Y="36"/>
+        <UsageCount Value="12"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\m_comp\m_combobox.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="16" Y="37"/>
+        <UsageCount Value="36"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\m_comp\m_memo.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="15" Y="37"/>
+        <UsageCount Value="24"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\m_comp\m_stringgrid.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="21" Y="37"/>
+        <UsageCount Value="20"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\m_comp\m_dbgrid.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="17" Y="37"/>
+        <UsageCount Value="20"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\m_comp\m_label.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="16" Y="32"/>
+        <UsageCount Value="20"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\m_comp\m_listbox.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="15" Y="38"/>
+        <UsageCount Value="23"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\m_comp\m_radiogroup.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="19" Y="28"/>
+        <UsageCount Value="23"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\m_comp\m_page.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="13" Y="28"/>
+        <UsageCount Value="24"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\m_comp\m_pagecontrol.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="22" Y="32"/>
+        <UsageCount Value="26"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\m_comp\m_shape.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="14" Y="28"/>
+        <UsageCount Value="35"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\m_comp\m_panel.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="14" Y="28"/>
+        <UsageCount Value="35"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\m_comp\m_spinedit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="19" Y="37"/>
+        <UsageCount Value="35"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\m_comp\m_floatspinedit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="24" Y="36"/>
+        <UsageCount Value="35"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\m_comp\m_edit.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="81"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\m_comp\m_bitbtn.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="17" Y="32"/>
+        <UsageCount Value="3"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\lazarus\lcl\checklst.pas"/>
+        <UnitName Value="CheckLst"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="76" Y="176"/>
+        <UsageCount Value="3"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\lazarus\components\lazutils\laztracer.pas"/>
+        <UnitName Value="LazTracer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="2"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\m_comp\m_drawgrid.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="19" Y="37"/>
+        <UsageCount Value="8"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="346"/>
+        <CursorPos X="27" Y="94"/>
+        <UsageCount Value="4"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\m_comp\m_radiobutton.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="22" Y="36"/>
+        <UsageCount Value="3"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="C:\lazarus\lcl\editbtn.pas"/>
+        <UnitName Value="EditBtn"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1975"/>
+        <CursorPos Y="1984"/>
+        <UsageCount Value="2"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\lazarus\lcl\include\checkbox.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="3"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus\lcl\include\customcheckbox.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="264"/>
+        <UsageCount Value="3"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\m_comp\checkbox1.pas"/>
+        <UnitName Value="CheckBox1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\m_comp\checkbox2.pas"/>
+        <UnitName Value="CheckBox2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="26" Y="28"/>
+        <UsageCount Value="3"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\m_comp\m_comp.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35" Y="8"/>
+        <UsageCount Value="3"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="C:\Lixo\combobox1.pas"/>
+        <UnitName Value="ComboBox1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\m_comp\button1.pas"/>
+        <UnitName Value="Button1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\m_comp\bitbtn1.pas"/>
+        <UnitName Value="BitBtn1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\m_comp\memo1.pas"/>
+        <UnitName Value="Memo1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\m_comp\stringgrid1.pas"/>
+        <UnitName Value="StringGrid1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\m_comp\dbgrid1.pas"/>
+        <UnitName Value="DBGrid1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\m_comp\label1.pas"/>
+        <UnitName Value="Label1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\m_comp\listbox1.pas"/>
+        <UnitName Value="ListBox1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\m_comp\radiogroup1.pas"/>
+        <UnitName Value="RadioGroup1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\m_comp\page1.pas"/>
+        <UnitName Value="Page1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\m_comp\pagecontrol1.pas"/>
+        <UnitName Value="PageControl1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\m_comp\shape1.pas"/>
+        <UnitName Value="Shape1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\m_comp\panel1.pas"/>
+        <UnitName Value="Panel1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\m_comp\spinedit1.pas"/>
+        <UnitName Value="SpinEdit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\m_comp\floatspinedit1.pas"/>
+        <UnitName Value="FloatSpinEdit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\m_comp\edit1.pas"/>
+        <UnitName Value="Edit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\m_comp\drawgrid1.pas"/>
+        <UnitName Value="DrawGrid1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\m_comp\radiobutton1.pas"/>
+        <UnitName Value="RadioButton1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2234"/>
+        <CursorPos Y="2244"/>
+        <UsageCount Value="4"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="4"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="C:\lazarus\lcl\include\buttons.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="160"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="4"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5411"/>
+        <CursorPos Y="5420"/>
+        <UsageCount Value="4"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="C:\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="112"/>
+        <CursorPos Y="123"/>
+        <UsageCount Value="4"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2664"/>
+        <CursorPos Y="2680"/>
+        <UsageCount Value="4"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\m_comp\m_maskedit.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="88" Y="10"/>
+        <UsageCount Value="46"/>
+      </Unit65>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="21" Column="90"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="22" Column="90" TopLine="2"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="23" Column="90" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="24" Column="90" TopLine="4"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="25" Column="90" TopLine="5"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="26" Column="90" TopLine="6"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="27" Column="90" TopLine="7"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="28" Column="90" TopLine="8"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="29" Column="90" TopLine="9"/>
+      </Position9>
+      <Position10>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="30" Column="90" TopLine="10"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frm_clientes.pas"/>
+        <Caret Line="15" Column="83"/>
+      </Position11>
+      <Position12>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="23" Column="35" TopLine="11"/>
+      </Position12>
+      <Position13>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="24" Column="35" TopLine="11"/>
+      </Position13>
+      <Position14>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="25" Column="35" TopLine="11"/>
+      </Position14>
+      <Position15>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="26" Column="35" TopLine="11"/>
+      </Position15>
+      <Position16>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="27" Column="35" TopLine="11"/>
+      </Position16>
+      <Position17>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="28" Column="35" TopLine="11"/>
+      </Position17>
+      <Position18>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="29" Column="35" TopLine="11"/>
+      </Position18>
+      <Position19>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="30" Column="35" TopLine="11"/>
+      </Position19>
+      <Position20>
+        <Filename Value="dm_clientes.pas"/>
+        <Caret Line="31" Column="35" TopLine="11"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frm_clientes.pas"/>
+        <Caret Line="15" Column="83"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frm_clientes.pas"/>
+        <Caret Line="6" Column="43"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frm_clientes.pas"/>
+        <Caret Line="7" Column="20"/>
+      </Position23>
+      <Position24>
+        <Filename Value="m_cad.lpr"/>
+        <Caret Line="16" Column="45"/>
+      </Position24>
+      <Position25>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="12" Column="11"/>
+      </Position25>
+      <Position26>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="20" Column="17" TopLine="4"/>
+      </Position26>
+      <Position27>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="9" Column="36" TopLine="6"/>
+      </Position27>
+      <Position28>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="20" Column="28" TopLine="6"/>
+      </Position28>
+      <Position29>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="10" Column="36"/>
+      </Position29>
+      <Position30>
+        <Filename Value="cs_inicad.pas"/>
+        <Caret Line="8" Column="36"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="copy(str, i, 1)"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Pos('0123456789', x)"/>
+      </Item2>
+    </Watches>
+  </Debugging>
+</CONFIG>

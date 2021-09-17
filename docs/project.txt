@@ -1,0 +1,146 @@
+Mariae Project
+Sistema com um executavel principal e módulos com as funções: Ferramentas, Cadastros, Vendas, Financeiro, Estoque, Compras, Relatórios, Contábil,
+	Recursos Humanos, Produção, Business Intelligence, Fiscal
+	Mais uma biblioteca de acesso a dados.
+
+Development
+
+	Cadastros
+		Clientes
+		Clientes Prospecto
+		Controle de Prospectos
+		Fornecedores
+		Funcionários
+			Vendedores
+			Compradores
+			Colaboradores
+		Transportadores
+		Materiais
+			Produtos
+			Tabelas de Preços
+			Grupos
+			Subgrupos
+			Fabricantes
+			NCMs
+		Bancos
+		Agências Bancárias
+		Contas
+		Centros de Custo
+		Contas Orçamentárias
+		Tipos de Documentos
+		CFOPs
+		Observações da Nota Fiscal
+		Condições de Pagamento
+		Planos de Contas
+		Áreas de Venda
+		Segurança
+			Usuários
+			Grupos de Usuários
+		Finalizadoras
+			Administradoras de Cartão de Crédito
+			Cartões de Crédito
+			
+	Compras
+		Entrada de Produtos
+		Controle de Compras
+		Atualizar Cadastro de Produtos
+		Ordem de Compra
+		Controle de Ordem de Compra
+		Cotação
+		
+	Financeiro
+		Contas a Receber
+			Crédito
+			Cartão
+			Crediário
+			Boleto
+		Contas a Pagar
+			Débito
+		Lançamentos de Contas
+			Crédito
+			Débito
+			Transferência entre Contas
+			Movimento de Transferências
+			Crédito para Clientes
+		Lançamentos Bancários
+			Cheques
+			Controle de Cheques
+			Boleto Bancário
+			Gerar Remessa Boletos
+			Retorno de Remessa de Boletos
+		Fechamento Diário
+		
+	Vendas
+		Varejo
+			Frente de Caixa
+			Orçamentos
+			Pré-Vendas
+			Controle de Pré-Vendas
+			Devoluções
+			Movimento de Devoluções
+		Atacado
+			Pedidos
+			Controle de Pedidos
+			Orçamentos
+			Controle de Orçamentos
+			Devoluções
+			Movimento de Devoluções
+	Relatórios
+		Estoque
+			Movimento de Estoque
+			Valoração de Estoque por Data
+		Cadastros
+			Produtos
+			Clientes
+			Grupos de Produtos
+		Compras
+			Compras
+			Ordens de Compra
+		Financeiro
+			Contas a Receber
+			Créditos
+			Débitos
+			Cheques
+			Fluxo de Caixa
+			Conciliação Bancária
+			Custos - MOvimento de Itens
+		Vendas
+			Devoluções - Atacado
+			Devoluções - Varejo
+			Pedidos
+			Produtos Vendidos - Valoração
+			Produtos Vendidos - Estoque
+			Movimento de Pedidos
+			Produtos da Pré-Venda
+			Lucro Líquido
+			Ranking de Produtos Vendidos
+			
+	Ferramentas
+		Centro de Controle
+		Configurações Locais
+		Gerenciar Estações de Trabalho
+		Definição de Acesso
+		Backup
+		Trocar Usuário
+		Personalizar Barra de Ferramentas
+		Alterar Senha
+		Registro de Inventário
+		Impressão de Código de Barras
+		Transferência de Estoque
+		Recalcular Movimento de Estoque
+		Consulta de Inventários
+		Importação/Exportação de Dados
+		Monitoramento de Auditoria
+		
+	Janelas
+		Em Cascata
+		Fechar Todas
+		Principal
+		
+	Ajuda
+		Sobre
+		Conteúdo
+		Registro
+		Relatório de Atualizações
+		
+	Sair

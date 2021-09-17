@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="mariae.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="47" Y="7"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frm_prin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPrin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="29"/>
+        <CursorPos X="53" Y="33"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\m_com\cs_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="clsFormdef"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="51" Y="5"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\m_com\cs_form.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="17" HistoryIndex="16">
+      <Position1>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="5" Column="11"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="35" Column="3" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="36" Column="3" TopLine="24"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="35" Column="3" TopLine="23"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mariae.lpr"/>
+        <Caret Line="10" Column="27" TopLine="7"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="36" Column="3" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mariae.lpr"/>
+        <Caret Line="10" Column="23" TopLine="2"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="37" Column="3" TopLine="25"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="40" Column="3" TopLine="20"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="27" Column="53" TopLine="8"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="40" Column="9" TopLine="24"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="39" Column="28" TopLine="22"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="41" Column="29" TopLine="24"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="40" Column="37" TopLine="26"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="41" Column="21" TopLine="27"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="45" Column="22" TopLine="27"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frm_prin.pas"/>
+        <Caret Line="12" Column="5" TopLine="8"/>
+      </Position17>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
